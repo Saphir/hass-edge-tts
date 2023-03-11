@@ -15,6 +15,12 @@ wget -O - https://raw.githubusercontent.com/hasscc/get/main/get | DOMAIN=edge_tt
 wget -O - https://ghproxy.com/raw.githubusercontent.com/hasscc/get/main/get | HUB_DOMAIN=ghproxy.com/github.com DOMAIN=edge_tts REPO_PATH=hasscc/hass-edge-tts ARCHIVE_TAG=main bash -
 ```
 
+```python
+pip3 install edge-tts
+edge-playback --text "自动化测试第2步，需要您手机微信扫码登录，成功后，请按回车继续" --voice zh-CN-YunxiNeural
+edge-tts --list-voices
+```
+
 
 ## Config
 
